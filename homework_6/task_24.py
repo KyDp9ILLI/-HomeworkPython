@@ -13,7 +13,7 @@
 # max = list[0] - int(list[0])
 # min = list[0] - int(list[0])
 
-# for i in range(n):
+# for i in range(n):мм
 #     if list[i]-int(list[i]) > max:
 #         max = list[i]-int(list[i])
 #     elif list[i]-int(list[i]) < min:

@@ -21,8 +21,12 @@
 
 # print(round(max-min,2))
 
-c = [1.3, 1.4, 20.1, 100.9, 3.001]
-print(c)
-list_c = list(round(c[i]%1, 4) for i in range(len(c)))
-result_3 = max(list_c)-min(list_c)
-print(f'разница между нецелой частью = {result_3}')
+# c = [1.3, 1.4, 20.1, 100.9, 3.001]
+# print(c)
+# list_c = list(round(c[i]%1, 4) for i in range(len(c)))
+# result_3 = max(list_c)-min(list_c)
+# print(f'разница между нецелой частью = {result_3}')
+
+res = map(float,input("Введите числа: ").split())
+res = list(map(lambda x: x - int(x),res))
+print(round(max(res)-min(res),2))
